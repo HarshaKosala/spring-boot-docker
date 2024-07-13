@@ -42,6 +42,13 @@ public class CustomerController {
         customer2.setAge(33L);
         customer2.setAddress("No. 34, South Africa");
 
+        Customer customer3 = new Customer();
+        customer2.setCustomerId(2L);
+        customer2.setFirstName("jason");
+        customer2.setLastName("roy");
+        customer2.setAge(33L);
+        customer2.setAddress("No. 34, behmrinham, UK");
+
         List<Customer> customers = new ArrayList<>();
         customers.add(customer1);
         customers.add(customer2);
