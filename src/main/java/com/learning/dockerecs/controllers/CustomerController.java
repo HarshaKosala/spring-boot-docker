@@ -52,6 +52,7 @@ public class CustomerController {
         List<Customer> customers = new ArrayList<>();
         customers.add(customer1);
         customers.add(customer2);
+        customers.add(customer3);
 
         return customers;
     }
